@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "464824819027",
+    "firebase_url": "https://iotnodemcu.firebaseio.com",
+    "project_id": "iotnodemcu",
+    "storage_bucket": "iotnodemcu.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:464824819027:android:4d36d68fc269c98c",
+        "android_client_info": {
+          "package_name": "com.example.peepo.homepage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "464824819027-ahlkvbncbetbco1hk8gte932p4ve4418.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.peepo.homepage",
+            "certificate_hash": "d10e735771bf96e3083596b1ab73711a5d0bfb0c"
+          }
+        },
+        {
+          "client_id": "464824819027-29f19jfiaoh3jpv50plpkugjb43j8lo4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsW6O4mfSKtrZWbr4_33rBvh5Ks0IwPZ4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "464824819027-29f19jfiaoh3jpv50plpkugjb43j8lo4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
