@@ -60,7 +60,11 @@ public class Heater extends AppCompatActivity {
         myRef.child("HeaterStatus").addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
-                tgbHeater_status.setChecked(dataSnapshot.getValue().toString().equals("ON")?true:false);
+                try {
+                    tgbHeater_status.setChecked(dataSnapshot.getValue().toString().equals("ON") ? true : false);
+                }catch (NullPointerException ex){
+                    tgbHeater_status.setChecked(false);
+                }
             }
 
             @Override

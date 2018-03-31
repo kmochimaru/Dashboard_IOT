@@ -65,7 +65,11 @@ public class Motor extends AppCompatActivity {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 if(dataSnapshot.getValue() != null)
-                    tbgMotor_status.setChecked(dataSnapshot.getValue().toString().equals("ON")?true:false);
+                    try {
+                        tbgMotor_status.setChecked(dataSnapshot.getValue().toString().equals("ON") ? true : false);
+                    }catch (NullPointerException ex){
+                        tbgMotor_status.setChecked(false);
+                    }
             }
 
             @Override
